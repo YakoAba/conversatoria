@@ -13,7 +13,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Entre na área exclusiva de alunos, clicando &nbsp;
+            Entre na área exclusiva de associados, clicando &nbsp;
             <code className={styles.code}>AQUI</code>
           </p>
           {/* <div>
