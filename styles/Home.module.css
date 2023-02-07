@@ -79,8 +79,6 @@
   align-items: center;
   position: relative;
   padding: 2rem 0;
-  width: 200px;
-  height: 180px;
 }
 
 .center::before {

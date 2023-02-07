@@ -40,7 +40,7 @@ export default function Home() {
             className={styles.logo}
             src="/splash.png"
             alt="Next.js Logo"
-            width={400}
+            width={350}
             height={300}
             priority
           />
@@ -67,13 +67,27 @@ export default function Home() {
             </h2>
             <p className={inter.className}>
               Transforme sua paixão por karate em uma jornada inesquecível,
-              junte-se ao nossa intituto de mess no esporte e registre-se
-              agora.
+              junte-se ao nossa intituto de mess no esporte e registre-se agora.
             </p>
           </a>
 
           <a
             //   href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+              Notícias <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>
+              Fique por dentro das últimas novidades do nosso Instituto de Artes
+              Marciais.
+            </p>
+          </a>
+
+          <a
+            //    href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -88,27 +102,13 @@ export default function Home() {
           </a>
 
           <a
-            //    href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
             //  href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Diretoria <span>-&gt;</span>
+              Contato <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Entre em contato com o IKAM para mais informações sobre aulas,
